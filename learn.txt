@@ -1,0 +1,1 @@
+To connect mongoDB , make a js file to fetch it , and wrap it under try catch , make it a .then .catch in main index.js
