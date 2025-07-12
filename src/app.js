@@ -17,4 +17,8 @@ app.use(express.static("public"))
 
 app.use("/api/v1/healthcheck",healthcheckRouter)
 
-export {app}
+import userRouter from "./routes/healthcheck.routes.js"
+
+app.use("/api/v1/user",userRouter)
+
+export {app} 

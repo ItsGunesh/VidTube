@@ -9,6 +9,7 @@ dotenv.config()
 const PORT = process.env.PORT || 7000
 
 // console.log(process.env.PORT)
+// console.log()
 
 connectDB()
 .then(()=>{
@@ -17,5 +18,5 @@ connectDB()
 })
 })
 .catch((err)=>{
-    console.log("MongoDB conncection error")
+    console.log("MongoDB conncection error",err)
 })
